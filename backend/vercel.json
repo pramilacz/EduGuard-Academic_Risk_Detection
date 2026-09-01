@@ -1,0 +1,5 @@
+{
+  "framework": "fastapi",
+  "buildCommand": null,
+  "outputDirectory": null
+}
