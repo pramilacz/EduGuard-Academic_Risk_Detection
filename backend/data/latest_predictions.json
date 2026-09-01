@@ -1,0 +1,117 @@
+[
+  {
+    "student_id": "11391",
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "risk_level": "Lower Risk",
+    "risk_probability": 0.1905125081539154,
+    "assessment_completion_rate": 1.0,
+    "mean_assessment_score": 81.5,
+    "last_activity_day": 54.0,
+    "active_weeks": 7.0,
+    "late_submissions": 0.0,
+    "studied_credits": 240.0,
+    "weekly_activity": [
+      183.0,
+      20.0,
+      100.0,
+      0.0,
+      26.0,
+      60.0,
+      22.0,
+      20.0
+    ]
+  },
+  {
+    "student_id": "28400",
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "risk_level": "Lower Risk",
+    "risk_probability": 0.42811790108680725,
+    "assessment_completion_rate": 1.0,
+    "mean_assessment_score": 69.0,
+    "last_activity_day": 53.0,
+    "active_weeks": 7.0,
+    "late_submissions": 1.0,
+    "studied_credits": 60.0,
+    "weekly_activity": [
+      169.0,
+      66.0,
+      37.0,
+      57.0,
+      75.0,
+      0.0,
+      21.0,
+      23.0
+    ]
+  },
+  {
+    "student_id": "30268",
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "risk_level": "High Risk",
+    "risk_probability": 0.9849117994308472,
+    "assessment_completion_rate": 0.0,
+    "mean_assessment_score": 0.0,
+    "last_activity_day": 12.0,
+    "active_weeks": 2.0,
+    "late_submissions": 0.0,
+    "studied_credits": 60.0,
+    "weekly_activity": [
+      100.0,
+      59.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "student_id": "31604",
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "risk_level": "Lower Risk",
+    "risk_probability": 0.1529764086008072,
+    "assessment_completion_rate": 1.0,
+    "mean_assessment_score": 71.5,
+    "last_activity_day": 54.0,
+    "active_weeks": 8.0,
+    "late_submissions": 0.0,
+    "studied_credits": 60.0,
+    "weekly_activity": [
+      17.0,
+      146.0,
+      99.0,
+      22.0,
+      82.0,
+      117.0,
+      48.0,
+      57.0
+    ]
+  },
+  {
+    "student_id": "32885",
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "risk_level": "High Risk",
+    "risk_probability": 0.9217033982276917,
+    "assessment_completion_rate": 0.5,
+    "mean_assessment_score": 69.0,
+    "last_activity_day": 38.0,
+    "active_weeks": 6.0,
+    "late_submissions": 1.0,
+    "studied_credits": 60.0,
+    "weekly_activity": [
+      58.0,
+      115.0,
+      37.0,
+      57.0,
+      18.0,
+      16.0,
+      0.0,
+      0.0
+    ]
+  }
+]
