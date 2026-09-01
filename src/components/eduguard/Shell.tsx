@@ -97,12 +97,11 @@ export function Shell({
               >
                 {theme === "dark" ? <Sun className="size-4" /> : <Moon className="size-4" />}
               </button>
-              <span
-                aria-label="EduGuard"
-                className="flex size-9 items-center justify-center rounded-full bg-primary text-[11px] font-bold text-primary-foreground"
-              >
-                EG
-              </span>
+              <img
+                src="/my-photo.jpg"
+                alt="Profile"
+                className="size-9 rounded-full object-cover border border-border"
+              />
             </div>
           </header>
 
