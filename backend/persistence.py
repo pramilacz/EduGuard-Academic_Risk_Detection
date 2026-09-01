@@ -3,6 +3,10 @@ import json
 
 import pandas as pd
 
+import os
+
+IS_VERCEL = bool(os.getenv("VERCEL"))
+
 
 # -------------------------------------------------
 # Storage locations
@@ -60,6 +64,9 @@ def save_latest_state(
     dataframe: pd.DataFrame,
     predictions: list,
 ):
+    if IS_VERCEL:
+        return
+    
     # Write to temporary files first, then replace the live files. This keeps
     # the previous valid state intact if the process is interrupted mid-write.
     cohort_temp_path = COHORT_PATH.with_suffix(".csv.tmp")

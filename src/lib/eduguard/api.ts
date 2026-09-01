@@ -2,7 +2,9 @@ import type { CohortSummary, StudentExplanation, StudentPrediction, UploadResult
 
 export const API_BASE_URL =
   (import.meta.env["VITE_EDUGUARD_API_URL"] as string | undefined) ??
-  "http://127.0.0.1:8000/api/eduguard";
+  (import.meta.env.PROD
+    ? "/api/eduguard"
+    : "http://127.0.0.1:8000/api/eduguard");
 
 interface BackendStudent {
   student_id: string;

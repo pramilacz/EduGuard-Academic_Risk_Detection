@@ -6,6 +6,9 @@ from typing import Any
 import pandas as pd
 import io
 import logging
+import os
+
+IS_VERCEL = bool(os.getenv("VERCEL"))
 
 from persistence import (
     save_latest_state,
@@ -14,7 +17,7 @@ from persistence import (
 
 logger = logging.getLogger("eduguard")
 
-MAX_CSV_BYTES = 10 * 1024 * 1024
+MAX_CSV_BYTES = 4 * 1024 * 1024
 
 # -------------------------------------------------
 # Latest uploaded cohort
@@ -137,6 +140,7 @@ def predict_student(student: dict[str, Any]):
 
 @app.post("/api/eduguard/predict-csv")
 async def predict_csv(file: UploadFile = File(...)):
+    
     try:
         # Only allow CSV
         filename = file.filename or ""
@@ -152,7 +156,7 @@ async def predict_csv(file: UploadFile = File(...)):
         if len(contents) > MAX_CSV_BYTES:
             raise HTTPException(
                 status_code=413,
-                detail="CSV file is too large. Maximum size is 10 MB."
+                detail="CSV file is too large. Maximum size is 4 MB."
             )
 
         dataframe = pd.read_csv(
