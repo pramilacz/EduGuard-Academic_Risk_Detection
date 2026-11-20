@@ -4,6 +4,9 @@
 
 EduGuard is a final-year academic decision-support prototype that identifies students who may be at risk of **Failing or Withdrawing** using information from the **first 8 weeks / 56 days** of study.
 
+**Preview:**
+<img width="1920" height="874" alt="image" src="https://github.com/user-attachments/assets/8e562d78-faff-4db0-a08a-2aaefdd10129" />
+
 The system combines:
 
 - a React + TypeScript dashboard,
