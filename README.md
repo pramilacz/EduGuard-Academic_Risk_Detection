@@ -1,8 +1,12 @@
-# EduGuard
+<img width="1920" height="874" alt="image" src="https://github.com/user-attachments/assets/25f8e7b2-0b3d-409b-ab47-95eb565f1a71" /># EduGuard
 
 **Early Academic Risk Detection & Learning Analytics**
 
 EduGuard is a final-year academic decision-support prototype that identifies students who may be at risk of **Failing or Withdrawing** using information from the **first 8 weeks / 56 days** of study.
+
+**Preview:**
+<img width="1920" height="874" alt="image" src="https://github.com/user-attachments/assets/ccab6e36-face-457b-b297-e867e714598b" />
+
 
 The system combines:
 
